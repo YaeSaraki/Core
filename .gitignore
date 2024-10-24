@@ -1,0 +1,29 @@
+# 编译生成的文件
+bin/
+*.o
+*.exe
+*.out
+
+# 中间文件
+obj/
+*.d
+*.class
+
+# 日志文件
+*.log
+
+# 临时文件
+temp/
+*.tmp
+
+# IDE 或编辑器配置文件
+.vscode/
+*.swp
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 其他忽略规则
+build/
+dist/
